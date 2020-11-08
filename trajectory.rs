@@ -2,7 +2,8 @@ fn main(){
     use std::{thread, time};
     
     let half_second = time::Duration::from_millis(500);
-    let speed = 400;
+    let speed = 400; // Meters per second
+    speed = speed/2;
     let mut tilt = 90;
     let mut xspeed=0;
     let mut yspeed=0;

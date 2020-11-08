@@ -3,7 +3,8 @@
 #include <unistd.h>
 
 int main(){
-	int speed=400;
+	int speed=400; // Meters per second
+	speed = speed / 2;
 	int tilt=90;	
 	tilt = tilt - 90;
 	int xspeed=0;

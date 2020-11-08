@@ -1,9 +1,12 @@
 #!/bin/python3
 from time import sleep as sleep
 
-speed = 400
+speed = 400 # Meters per second
+speed /= 2
+
 tilt = 90
 tilt = tilt - 90
+
 if tilt != 0:
     xspeed = 400/(90/tilt)
 else: 
