@@ -23,5 +23,12 @@ int main(){
 		printf("x: %d y: %d\n", x, y);
 		usleep(500000);
 	}
+	
+	free(speed);
+	free(tilt);
+	free(xspeed);
+	free(yspeed);
+	free(x);
+	free(y)
 }
 
